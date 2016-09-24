@@ -1,0 +1,304 @@
+.content{
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: absolute;
+}
+
+.form-review{   
+    margin-top: 20px; 
+}
+
+.foto{
+	 width: 100%;
+  height: 71%;
+}
+
+.user-foto{
+  width: 100%;
+  height: 70%;
+}
+
+.user {
+  display: none;
+}
+
+@media (min-width: 1170px){
+
+.user{
+
+  display: block;
+}}
+
+.add-follow-h{
+  text-align: center;
+}
+
+.add-follow-foto{
+  width: 100%;
+  height: 71%;
+  padding: 0px;
+}
+
+.add-follow-panels{
+  width: 60%;
+}
+
+.add-follow-name{
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-registration{
+	width: 40%;
+}
+
+.form-inline > .form-group{
+width: 80%;
+}
+
+.form-inline .form-control{
+  width: 100%;
+}
+
+.head-foto-name{
+  font-size: 16px;
+  color: #3b5998;
+  font-weight: bold;
+}
+
+.head-foto-date{
+  font-size: 11px;
+}
+
+.head-foto-user{
+  width: 48px;
+  height: 37px;
+  margin-right: 5px;
+  float: left;
+}
+
+.post-contener{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: inline-block;
+  position: static;
+  width: 100%;
+  
+}
+
+.post-foto-user{
+  width: 48px;
+  height: 37px;
+  margin-right: 5px;
+  float: left;
+}
+
+.post-foto-name{
+  line-height: 1.34;
+  color: #3b5998;
+  font-weight: bold;
+  width: 85%;
+  display: inline-block;
+}
+
+.post-foto-name > span {
+  line-height: 1.34;
+  color: #333;
+  font-weight: normal;
+}
+
+.post-foto-date{
+  font-size: 11px;
+  width: 100%;
+  display: inline-block;
+  color: #3b5998;
+  font-weight: bold;
+}
+
+.img-foto-post{
+  float: left;
+  display: block;
+  position: static;
+  width: 60px;
+}
+
+.pen{
+  float: right;
+  display: block;
+  position: static;
+  cursor: pointer;
+}
+
+.pen a{
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.post-contener:hover .pen{
+  visibility: visible;
+}
+
+
+.pen .drop-menu {
+  /*display: block;*/
+  position: absolute;
+  right: 31px;
+  margin-left: 0; 
+  padding-left: 0;
+  cursor: pointer;
+  height: 14px;
+}
+
+.drop-menu-active{
+  z-index: 1;
+}
+
+.drop-menu-no-active{
+  z-index: 0;
+}
+
+
+.pen .drop-menu > li {
+list-style-type: none;
+background-color: white;
+}
+
+.pen .drop-menu > li:first-of-type {
+border-left: 1px solid gray;
+border-top: 1px solid gray;
+border-right: 1px solid gray;
+}
+
+.pen .drop-menu > li:last-of-type {
+border-left: 1px solid;
+border-bottom: 1px solid;
+border-right: 1px solid;
+}
+
+.pen .drop-menu li{
+  display: none;
+  padding: 4px;
+  font-size: 12px;
+}
+
+
+
+.pen .drop-menu li:hover{
+  background-color: #3b5998;
+  text-decoration: none;
+  
+  
+}
+
+.pen .drop-menu li:hover > a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.pen {
+    visibility: hidden;
+}
+
+.pen-active{
+  visibility: visible;
+
+}
+
+.pen-active:after{
+  content: '';
+    border: 5px solid transparent;
+    border-bottom: 5px solid;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+
+.ref{
+  float: left;
+  height: 16px;
+  position: relative;
+}
+
+
+.ref a {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+
+.text-update-area {
+  width: 100%;
+  resize: none;
+  text-align: justify;
+}
+
+.text-update-contener{
+  box-sizing: border-box;
+  float: right;
+  display: block;
+  position: static;
+  width: calc(100% - 60px);
+}
+
+
+
+.form-post{
+  padding-top: 5px;
+  display: block;
+}
+
+
+.status_follow {
+  position: relative;
+}
+
+.status_follow > ul > li {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.status_follow > ul:hover >li{
+  display: block;
+}
+
+.status_follow > ul > li > a{
+  text-decoration: none;
+  color: #333;
+}
+
+
+.center-title{
+  text-align: left;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  z-index: 3;
+}
+
+.container  {
+margin: 50px ;
+}
+
+.text-muted {
+  margin: 20px 20px;
+}
+
+.modal-foto{
+  width: 100%;
+  height: 70%;
+}
